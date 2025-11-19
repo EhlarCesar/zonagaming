@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrito - Zona Gaming</title>
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
 
   <body>
     <header>
       <h1 class="site-title">Carrito</h1>
       <div class="header-right">
-        <a href="index.html" class="contact-link">⬅</a>
+        <a href="../index.html" class="contact-link">⬅</a>
       </div>
     </header>
 
@@ -30,7 +31,7 @@
       <p>© 2025 ehlarmv - Todos los derechos reservados</p>
     </footer>
 
-    <script src="js/cart.js"></script>
+    <script src="../js/cart.js"></script>
 
     <script>
       function renderCart() {
@@ -53,7 +54,8 @@
           div.classList.add("cart-item");
 
           div.innerHTML = `
-            <img src="${item.img}" alt="${item.name}" />
+            <!-- CORREGIDO -->
+            <img src="../${item.img}" alt="${item.name}" />
             <div class="cart-info">
               <p><strong>${item.name}</strong></p>
               <p>Precio: $${item.price}</p>
@@ -110,7 +112,7 @@
         localStorage.removeItem("cart");
         cart = [];
         updateCartCount();
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
       });
 
       renderCart();

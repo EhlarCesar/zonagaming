@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Dragon Ball Z: Budokai Tenkaichi 3",
+    "price": 2000,
+    "img": "assets/img/juego1.jpg"
+  },
+  {
+    "name": "Pro Evolution Soccer 6",
+    "price": 3500,
+    "img": "assets/img/juego2.jpg"
+  },
+  {
+    "name": "Black",
+    "price": 6000,
+    "img": "assets/img/juego3.jpg"
+  },
+  {
+    "name": "Grand Theft Auto: San Andreas",
+    "price": 5000,
+    "img": "assets/img/juego4.jpg"
+  }
+]
